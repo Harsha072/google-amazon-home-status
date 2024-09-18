@@ -25,7 +25,7 @@ This is a Node.js server built with Express.js for checking the status of popula
 
 3. **Start the server**:
    ```bash
-   npm start
+   npm run dev 
    ```
    The server will run on `http://localhost:3000`.
 
@@ -84,8 +84,10 @@ This is a Node.js server built with Express.js for checking the status of popula
     }
   ]
   ```
-
-
+## How to run testcases
+ ```bash
+   npm run test
+   ```
 ## How to Test the API
 
 You can test the API using:
