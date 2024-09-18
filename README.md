@@ -85,14 +85,6 @@ This is a Node.js server built with Express.js for checking the status of popula
   ]
   ```
 
-## CORS Configuration
-
-CORS is enabled to allow communication with an Angular frontend hosted at `http://localhost:4200`. You can modify this to match your frontend's URL by updating the `origin` value in the CORS middleware setup:
-```js
-app.use(cors({
-    origin: 'http://localhost:4200' 
-}));
-```
 
 ## How to Test the API
 
