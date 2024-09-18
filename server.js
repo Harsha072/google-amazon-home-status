@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const axios = require('axios');
 const cors = require('cors');
@@ -5,7 +6,7 @@ const cors = require('cors');
 const app = express();
 
 app.use(cors({
-    origin: 'http://localhost:4200' // Replace with your Angular app's URL
+    origin: process.env.url
   }));
 const getStatus = async (url) => {
   const start = Date.now();
